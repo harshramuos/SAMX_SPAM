@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @ItsKapilYadav**"
+HELP_STRING = f"★ 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @SAM_GODHERE**"
 
 HELP_BUTTON = [
     [
@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/KomalMusicRobotChannel"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/KomalMusicRobotSupport")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/SpamBotsh"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/SpamBotsh")
     ]
   ]
 
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @ItsKapilYadav**
+**© @SAM_GODHERE**
 """
 
                  
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @ItsKapilYadav**
+**© @SAM_GODHERE**
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-** © @ItsKapilYadav**
+** © @SAM_GODHERE**
 """                     
            
            
@@ -142,7 +142,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @ItsKapilYadav", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @SAM_GODHERE", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Make Your Own Altron Bots !! @ItSKapilYadav", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @SAM_GODHERE", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @ItsKapilYadav", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @SAM_GODHERE", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Make Your Own Altron Bots !! @ItsKapilYadav", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @SAM_GODHERE", cache_time=0, alert=True)
