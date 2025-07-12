@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/c53d9a7df9dbaa5f4db05.jpg",
+              "https://files.catbox.moe/lg4old.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -136,13 +136,13 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/WORLD_ALPHA"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/+Q25anL0Ckuk5NzM1")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/KomalMusicRobotChannel"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/KomalMusicRobotSupport")
               ]
             ]
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @ll_ALPHA_BABY_lll", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @ItsKapilYadav", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Make Your Own Altron Bots !! @ll_ALPHA_BABY_lll", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @ItSKapilYadav", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @ll_ALPHA_BABY_lll", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @ItsKapilYadav", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
