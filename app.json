@@ -1,6 +1,6 @@
 {
-    "name": "𝐀ʟᴘʜᴀ 𝐒ᴘᴀᴍ.",
-    "logo": "https://telegra.ph/file/e484dc030e63494789be5.jpg",
+    "name": "𝗞𝗮𝗽𝗶𝗹 𝐒ᴘᴀᴍ.",
+    "logo": "https://files.catbox.moe/lg4old.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/TEAMPURVI/ALPHA_SPAM",
+    "repository": "https://files.catbox.moe/2d32oj.mp4",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
