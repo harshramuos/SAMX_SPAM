@@ -122,7 +122,7 @@ RAID = [
     "𝗦𝗛𝗔𝗥𝗔𝗠 𝗔𝗔 𝗚𝗬𝗜 𝗛𝗔𝗜 𝗧𝗢 𝗡𝗔𝗭𝗥𝗘𝗡 𝗝𝗛𝗨𝗞𝗔 𝗟𝗜𝗝𝗜𝗬𝗘 𝗢𝗥 𝗔𝗚𝗔𝗥 𝗟𝗨𝗡𝗗 𝗠𝗘 𝗗𝗔𝗠 𝗡𝗛𝗜 𝗧𝗢 𝗦𝗛𝗜𝗟𝗔𝗝𝗘𝗘𝗧 𝗞𝗛𝗔 𝗟𝗜𝗝𝗜𝗬𝗘...🤣😂😂"
 ]
 
-ALTRON = [5968988297]
+ALTRON = [6219473300]
 
 REPLYRAID = [
     "MADARCHOD",
@@ -150,7 +150,7 @@ REPLYRAID = [
     "LWDEEE",
     "PAPA KI SPEED MTCH NHI HO RHI KYA",
     "ALE ALE MELA BCHAAAA",
-    "[𝗥𝗘𝗩𝗘𝗡𝗚𝗘𝗞𝗜𝗡𝗚](t.me/REVENGEKING199) TERA BAAP !!",
+    "[SAM X PAPA ](t.me/REVENGEKING199) TERA BAAP !!",
     "CHUD GYA PAPA SEEE",
     "KISAN KO KHODNA OR",
     "SALE RAPEKL KRDKA TERA",
